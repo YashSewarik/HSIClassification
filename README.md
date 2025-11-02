@@ -1,7 +1,5 @@
 # Hyperspectral Image Classification Model: Advanced Deep Learning Architecture with Quantum-Inspired AttentionThis detailed technical writeup analyzes a state-of-the-art hyperspectral image (HSI) classification model that achieves **97% overall accuracy on the University of Pavia dataset** and **96% overall accuracy on the Salinas dataset** using only **1% training data per class**. The model represents a significant advancement in few-shot learning for remote sensing applications through the integration of novel architectural components and advanced training strategies.[1]
 
-## Executive SummaryThe model implements a sophisticated dual-branch architecture combining **quantum-inspired attention mechanisms**, **self-supervised learning (SSL)**, and **temperature-guided fusion** to achieve exceptional classification performance with minimal labeled data. This is particularly significant given that traditional deep learning approaches typically require 10-30% of data for training, while this system demonstrates competitive results with only 1% per class.[2][3]## Dataset Specifications and Performance### University of Pavia DatasetThe University of Pavia dataset was acquired by the ROSIS (Reflective Optics System Imaging Spectrometer) sensor over Pavia, northern Italy in 2001. The dataset characteristics include:[4][5]
-
 - **Image dimensions**: 610 × 340 pixels
 - **Spectral bands**: 103 (after removing 12 noisy bands from original 115)
 - **Wavelength range**: 430-860 nm
